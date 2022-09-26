@@ -1,4 +1,4 @@
-let deadline = new Date("oct 25,  2022 20:59:59").getTime()
+let deadline = new Date("oct 25,  2022 10:59:59").getTime()
 let btnFile = document.querySelector('.btn-file')
 let butSubmit = document.querySelector('.btn-submit')
 let btnSelectFile = document.querySelector('.btn-select-file')
