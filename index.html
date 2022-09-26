@@ -11,30 +11,124 @@
 <body>
     <header>
         
-            <img src="./images/logo talent africa challenge Finis-01.png" alt="Logo Digital Africa" >
-           
-        <div class="btn-language">
-            <button class="btn-l " language="english">ENG</button>
-            <button class="btn-l-1 active" language="francais">FR</button>
+        <img src="./images/logo talent africa challenge Finis-01.png" alt="Logo Digital Africa" >
+       
+    <div class="btn-language">
+        <button class="btn-l " language="english">ENG</button>
+        <button class="btn-l-1 active" language="francais">FR</button>
+    </div>
+</header>
+<main class="section-boost">
+    <div class="booster">
+       <h1 > 
+        <span class="boostData"> Boostez </span>
+        <span class="start">votre start-up</span>
+      </h1> 
+       <p class="start2"> avec <span class="solution-num">une solution numérique offerte.</span> </p> 
+       <br>
+       <p class="publish">Vous êtes une Start-up, participez à Talent Startups challenge by DigitalAfrica et bénéficiez d'un accompagnement gratuit pour la réalisation de vos projets numériques(Website, Application mobile, logiciel de gestion...) <br> par les apprenants de Kinshasa Digital Academy </p>
+     <div class="btn-post">
+        <button id="postuler">Je postule  <i class="fa fa-long-arrow-right" aria-hidden="true"> </i>
+        </button>
+     </div>
+    </div>
+    <img src="./images/bg_main_section.png" alt="africa_bussiness_woman_in_white_suits"  >
+</main>
+    <section class="program">
+        <div class="program-title">
+            <h2>PROGRAMME</h2>
+            <p>Voici quelques étapes à suivre pour procéder à l'inscription du challenge Talent 4 startup.</p>
         </div>
-    </header>
-    <main class="section-boost">
-        <div class="booster">
-           <h1 > 
-            <span class="boostData"> Boostez </span>
-            <span class="start">votre start-up</span>
-          </h1> 
-           <p class="start2"> avec <span class="solution-num">une solution numérique offerte.</span> </p> 
-           <br>
-           <p class="publish">Vous êtes une Start-up, participez à Talent Startups challenge by DigitalAfrica et bénéficiez d'un accompagnement gratuit pour la réalisation de vos projets numériques(Website, Application mobile, logiciel de gestion...) <br> par les apprenants de Kinshasa Digital Academy </p>
-         <div class="btn-post">
-            <button id="postuler">Je postule  <i class="fa fa-long-arrow-right" aria-hidden="true"> </i>
-            </button>
-         </div>
+        <div class="program-content">
+            <div class="program-card">
+                <div class="card-inscription">
+                    <h4>Inscriptions</h4> 
+                    <!-- <div class="inscription-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti fugiat est ad nobis molestiae voluptatem rem. 
+                            Aliquam maiores vitae explicabo commodi sunt, 
+                        </p>
+                    </div> -->
+                    <div class="card-images-inscription">
+                        <img src="images/illustration.png" alt="image inscription" class="img-inscription"/>     
+                        <img  src="images/motif2.png" alt="motif image" class="motif-inscription"/>
+                    </div>
+                </div>
+                <div class="card-selection">
+                        <h4>Sélections</h4>
+                        <!-- <div class="selection-info">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Deleniti fugiat est ad nobis molestiae voluptatem rem. 
+                                    Aliquam maiores vitae explicabo commodi sunt, 
+                                 
+                                </p>
+                        </div> -->
+                        <div class="card-images-selection">
+                            <img src="images/illustration_woman3.png" alt="image inscription" class="img-selection"/>     
+                            <img  src="images/motif2.png" alt="motif image" class="motif-inscription"/>    
+                        </div>
+                </div>
+                <div class="card-publication">
+                    <h4>Publication</h4>
+                    <!-- <div class="publication-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti fugiat est ad nobis molestiae voluptatem rem. 
+                            Aliquam maiores vitae explicabo commodi sunt, 
+                           
+                        </p>
+                    </div> -->
+                    <div class="card-images-publication">
+                        <img src="images/illustration_woman_symetry.png" alt="image inscription" class="img-publication"/>     
+                        <img  src="images/motif2.png" alt="motif image" class="motif-publication"/>
+                    </div>
+                </div>
+            </div>
+            <div class="dowload-condition">
+                <a download href="images/Contenu du site et code couleur.pdf">Télécharge Les conditions <i class="fa-solid fa-arrow-right"></i></a>
+                <p>le document ci-dessus reprend de manière intégrale les différents critères de sélection<br/>
+                qui pourront déterminer si vous êtes éligibles ou non au programme Talent4startups challenge</p>
+            </div>
+            <div class="timer-content">
+                <h3>Fin des inscriptions dans</h3>
+                <div class="timer">
+                    <img src="images/motif2.png" alt="" />
+                    <div class="timer-counter">
+                        <div class="day">
+                            <h4 id="day"></h4>
+                            <p>JOURS</p>
+                        </div>
+                        <div class="hour">
+                            <h4 id="hour"></h4>
+                            <p >HEURES</p>
+                        </div>
+                        <div class="minutes">
+                            <h4 id="minutes"></h4>
+                            <p >MINUTES</p>
+                        </div>
+                        <div class="second">
+                            <h4 id="second"></h4> 
+                            <P >SECONDES</P>     
+                        </div>
+                    </div>
+                </div>
+                   
+    
+            </div>
+            <form>
+                <h2>REMPLISSEZ LE FORMULAIRE</h2>
+                <input type="text" required placeholder="Noms*"/>
+                <input type="email" required placeholder="Email*"/>
+                <input type="text" required placeholder="Nom de votre Start-up*"/>
+                <p>Décrivez votre concept en quelques lignes *</p>
+                <textarea name="" id="" cols="56" rows="6" required placeholder="message"></textarea>
+                <p class="btn-file-p">Pièces jointes * :</p>
+                <button class="btn-select-file">Sélectionner un fichier pdf * </button><br/>
+                <input class="btn-file" type="file" placeholder="SELECTIONNER un fichier pdf *"></input>
+                <button class="btn-submit" type="submit" class="btn-submit">Soumettre ma candidature</button>
+            </form>
         </div>
-        <img src="./images/bg_main_section.png" alt="africa_bussiness_woman_in_white_suits"  >
-    </main>
-  
+    </section>
+    
     <footer>
         <div class="partenaire">
             <img src="./images/logo_DG.png" alt="Logo Digital Africa">
