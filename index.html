@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital africa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        
+        <img src="./images/logo talent africa challenge Finis-01.png" alt="Logo Digital Africa" >
+       
+    <div class="btn-language">
+        <button class="btn-l " language="english">ENG</button>
+        <button class="btn-l-1 active" language="francais">FR</button>
+    </div>
+</header>
+<main class="section-boost">
+    <div class="booster">
+       <h1 > 
+        <span class="boostData"> Boostez </span>
+        <span class="start">votre start-up</span>
+      </h1> 
+       <p class="start2"> avec <span class="solution-num">une solution numérique offerte.</span> </p> 
+       <br>
+       <p class="publish">Vous êtes une Start-up, participez à Talent Startups challenge by DigitalAfrica et bénéficiez d'un accompagnement gratuit pour la réalisation de vos projets numériques(Website, Application mobile, logiciel de gestion...) <br> par les apprenants de Kinshasa Digital Academy </p>
+     <div class="btn-post">
+        <button id="postuler">Je postule  <i class="fa fa-long-arrow-right" aria-hidden="true"> </i>
+        </button>
+     </div>
+    </div>
+    <img src="./images/bg_main_section.png" alt="africa_bussiness_woman_in_white_suits"  >
+</main>
+    <section class="program">
+        <div class="program-title">
+            <h2>PROGRAMME</h2>
+            <p>Voici quelques étapes à suivre pour procéder à l'inscription du challenge Talent 4 startup.</p>
+        </div>
+        <div class="program-content">
+            <div class="program-card">
+                <div class="card-inscription">
+                    <h4>Inscriptions</h4> 
+                    <!-- <div class="inscription-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti fugiat est ad nobis molestiae voluptatem rem. 
+                            Aliquam maiores vitae explicabo commodi sunt, 
+                        </p>
+                    </div> -->
+                    <div class="card-images-inscription">
+                        <img src="images/illustration.png" alt="image inscription" class="img-inscription"/>     
+                        <img  src="images/motif2.png" alt="motif image" class="motif-inscription"/>
+                    </div>
+                </div>
+                <div class="card-selection">
+                        <h4>Sélections</h4>
+                        <!-- <div class="selection-info">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Deleniti fugiat est ad nobis molestiae voluptatem rem. 
+                                    Aliquam maiores vitae explicabo commodi sunt, 
+                                 
+                                </p>
+                        </div> -->
+                        <div class="card-images-selection">
+                            <img src="images/illustration_woman3.png" alt="image inscription" class="img-selection"/>     
+                            <img  src="images/motif2.png" alt="motif image" class="motif-inscription"/>    
+                        </div>
+                </div>
+                <div class="card-publication">
+                    <h4>Publication</h4>
+                    <!-- <div class="publication-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti fugiat est ad nobis molestiae voluptatem rem. 
+                            Aliquam maiores vitae explicabo commodi sunt, 
+                           
+                        </p>
+                    </div> -->
+                    <div class="card-images-publication">
+                        <img src="images/illustration_woman_symetry.png" alt="image inscription" class="img-publication"/>     
+                        <img  src="images/motif2.png" alt="motif image" class="motif-publication"/>
+                    </div>
+                </div>
+            </div>
+            <div class="dowload-condition">
+                <a download href="images/Contenu du site et code couleur.pdf">Télécharge Les conditions <i class="fa-solid fa-arrow-right"></i></a>
+                <p>le document ci-dessus reprend de manière intégrale les différents critères de sélection<br/>
+                qui pourront déterminer si vous êtes éligibles ou non au programme Talent4startups challenge</p>
+            </div>
+            <div class="timer-content">
+                <h3>Fin des inscriptions dans</h3>
+                <div class="timer">
+                    <img src="images/motif2.png" alt="" />
+                    <div class="timer-counter">
+                        <div class="day">
+                            <h4 id="day"></h4>
+                            <p>JOURS</p>
+                        </div>
+                        <div class="hour">
+                            <h4 id="hour"></h4>
+                            <p >HEURES</p>
+                        </div>
+                        <div class="minutes">
+                            <h4 id="minutes"></h4>
+                            <p >MINUTES</p>
+                        </div>
+                        <div class="second">
+                            <h4 id="second"></h4> 
+                            <P >SECONDES</P>     
+                        </div>
+                    </div>
+                </div>
+                   
+    
+            </div>
+            <form>
+                <h2>REMPLISSEZ LE FORMULAIRE</h2>
+                <input type="text" required placeholder="Noms*"/>
+                <input type="email" required placeholder="Email*"/>
+                <input type="text" required placeholder="Nom de votre Start-up*"/>
+                <p>Décrivez votre concept en quelques lignes *</p>
+                <textarea name="" id="" cols="56" rows="6" required placeholder="message"></textarea>
+                <p class="btn-file-p">Pièces jointes * :</p>
+                <button class="btn-select-file">Sélectionner un fichier pdf * </button><br/>
+                <input class="btn-file" type="file" placeholder="SELECTIONNER un fichier pdf *"></input>
+                <button class="btn-submit" type="submit" class="btn-submit">Soumettre ma candidature</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="partenaire">
+            <img src="./images/logo_DG.png" alt="Logo Digital Africa">
+            <img src="./images/german.png" alt="Logo german cooperation">
+            <img src="./images/giz.png" alt="Logo Giz">
+            <img src="./images/made-in-africa.png" alt="Logo made-in-africa">
+            <img src="./images/téléchargement.png" alt="Logo Kinshasa Digital Academy" class="kin-logo" >
+        </div>
+        <div class="next-section">
+            <div class="textFooter">
+                <p  class="paterns">Développé par Digital Africa en partenariat avec Make-IT in  Africa, La Deutsche Gesellschaft fur Internationale Zusammenabeit (GIz) GmbH, et le Ministère pour la Coopération Economique et le Développement (BMZ), Talent 4 Startups est un programme pilote de bourses d'études pour les métiers du numérique.
+                </p>
+            </div>
+            <div class="container-reseau">
+              <div class="fa">
+                <i class="fa-brands fa-square-facebook face"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+              <img src="./images/motif1-2.png" alt="motif1-1">
+           
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
